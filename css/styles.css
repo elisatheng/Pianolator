@@ -7,13 +7,15 @@ body {
 .container-fluid header {
 	padding: 50px 0;
 }
-.calculator > .row { margin: 10px; }
-
+.calculator > .row { 
+	margin: 10px; 
+}
 .calculator { 
 	background-color: #000;
 	border : 1px solid #000; 
 	border-radius: 10px;
 	margin: 20px 50px; 
+	margin: 0 auto;
 	padding: 20px;
 }
 .calculator .screens {
@@ -21,6 +23,7 @@ body {
 	border: 1px solid #666;
 	color: #fff;
 	margin-bottom: 20px;
+	height: 92px;
 }
 .calculator .screens .result {
 	font-size: 25px;
