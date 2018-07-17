@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+	.calculator .keys .operators > * {
+	    padding: 50px 0;
+	}
+	.calculator .keys .numbers {
+		margin-top: -120px;
+	}
+	.calculator .keys .numbers > * {
+		padding: 200px 0 20px 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.calculator .keys .operators > * {
+	    padding: 50px 0;
+	}
+	.calculator .keys .numbers {
+		margin-top: -120px;
+	}
+	.calculator .keys .numbers > * {
+		padding: 200px 0 20px 0;
+	}
+	.calculator .keys .numbers div:nth-child(n+7) {
+		margin-top: -120px;
+		z-index: initial;
+	}
+}
+
+@media screen and (max-width: 582px) {
+	.calculator .keys .operators > * {
+	    padding: 20px 0;
+	}
+	.calculator .keys .numbers {
+		margin-top: -60px;
+	}
+	.calculator .keys .numbers > * {
+		padding: 100px 0 20px 0;
+	}
+	.calculator .keys .numbers div:nth-child(n+7) {
+		margin-top: -60px;
+	}
+}
